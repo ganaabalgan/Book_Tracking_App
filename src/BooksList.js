@@ -23,11 +23,11 @@ class BooksList extends React.Component {
 
   render() {
     return (
-      <div className="list-books">
-        <div className="list-books-title">
+      <div className="listBooks">
+        <div className="listBooksTitle">
           <h1>MyReads</h1>
         </div>
-        <div className="list-books-content">
+        <div className="listBooksContent">
         {/*Display the three different shelves in main pages with its current books*/}
           <BooksShelf
             key="currently"
@@ -48,7 +48,7 @@ class BooksList extends React.Component {
             shelfTitle="Read"
           />
         </div>
-        <div className="open-search">
+        <div className="openSearch">
           <Link to="/Add_a_book">Add a book</Link>
         </div>
       </div>
