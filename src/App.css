@@ -29,21 +29,21 @@ body, .app {
   flex: 1;
 }
 
-.bookshelf {
+.BooksShelf {
   padding: 0 10px 20px;
 }
 
 @media (min-width: 600px) {
-  .bookshelf {
+  .BooksShelf {
     padding: 0 20px 40px;
   }
 }
 
-.bookshelf-title {
+.booksShelfTitle {
   border-bottom: 1px solid #dedede;
 }
 
-.bookshelf-books {
+.booksShelfBooks {
   text-align: center;
 }
 
@@ -75,7 +75,7 @@ body, .app {
 
 /* search page */
 
-.search-books-bar {
+.searchBooksBar {
   position: fixed;
   width: 100%;
   top: 0;
@@ -85,12 +85,12 @@ body, .app {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 0 6px rgba(0,0,0,0.23);
 }
 
-.search-books-input-wrapper {
+.searchBooksInputWrapper {
   flex: 1;
   background: #e9e;
 }
 
-.search-books-bar input {
+.searchBooksBar input {
   width: 100%;
   padding: 15px 10px;
   font-size: 1.25em;
@@ -98,7 +98,7 @@ body, .app {
   outline: none;
 }
 
-.close-search {
+.closeSearch {
   display: block;
   top: 20px;
   left: 15px;
@@ -118,13 +118,13 @@ button:active {
   outline: none;
 }
 
-.search-books-results {
+.searchBooks-results {
   padding: 80px 10px 20px;
 }
 
 /* books grid */
 
-.books-grid {
+.bookGrid {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -133,7 +133,7 @@ button:active {
   flex-wrap: wrap;
 }
 
-.books-grid li {
+.bookGrid li {
   padding: 10px 15px;
   text-align: left;
 }
@@ -142,27 +142,27 @@ button:active {
   width: 140px;
 }
 
-.book-title,
-.book-authors {
+.bookTitle,
+.bookAuthors {
   font-size: 0.8em;
 }
 
-.book-title {
+.bookTitle {
   margin-top: 10px;
 }
 
-.book-authors {
+.bookAuthors {
   color: #999;
 }
 
-.book-top {
+.top {
   position: relative;
   height: 200px;
   display: flex;
   align-items: flex-end;
 }
 
-.book-shelf-changer {
+.bookShelfChanger {
   position: absolute;
   right: 0;
   bottom: -10px;
@@ -177,7 +177,7 @@ button:active {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.book-shelf-changer select {
+.bookShelfChanger select {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -186,12 +186,12 @@ button:active {
 
 /* book cover */
 
-.book-cover {
+.cover {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   background: #eee;
 }
 
-.book-cover-title {
+.cover-title {
   padding: 20px 10px 0;
   text-align: center;
   font-size: 0.8em;

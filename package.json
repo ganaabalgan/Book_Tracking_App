@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/gb015j/Book_Tracking_App",
   "name": "myreads-app",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +7,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
   "scripts": {
